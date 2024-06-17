@@ -4,5 +4,13 @@ node_js:
 cache:
   directories:
     - "node_modules"
+
+dist: focal
+
+before_script:
+  - npm install --no-progress
+  - npm install -g npm@latest
+
 script:
+  - npm ci
   - npm test
