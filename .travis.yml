@@ -13,3 +13,10 @@ before_script:
 
 script:
   - npm ci
+
+notifications:
+  email:
+    recipients:
+      - jtan896@gmail.com
+    on_success: change # default: change
+    on_failure: always # default: always
