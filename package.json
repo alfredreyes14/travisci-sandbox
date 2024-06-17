@@ -1,0 +1,11 @@
+{
+  "name": "travisci-sandbox",
+  "version": "1.0.0",
+  "description": "travisci-sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "John Alfred reyes",
+  "license": "ISC"
+}
